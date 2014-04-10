@@ -19,7 +19,7 @@ filesource.getRawData("http://blabla.com/blabla.pdf", function(resp){
 		return;
 	}
 	
-	conosle.log(resp.data);	// raw data
+	console.log(resp.data);	// raw data
 });
 
 // Converts filepath to raw data
@@ -30,7 +30,7 @@ filesource.getRawData("/files/example.pdf", function(resp){
 		return;
 	}
 	
-	conosle.log(resp.data);	// raw data
+	console.log(resp.data);	// raw data
 });
 
 // Converts web-source to readable filepath
@@ -41,7 +41,7 @@ filesource.getDataPath("http://blabla.com/blabla.pdf", function(resp){
 		return;
 	}
 	
-	conosle.log(resp.data);	// local filepath
+	console.log(resp.data);	// local filepath
 	
 	resp.clean();
 });
@@ -56,7 +56,7 @@ filesource.getDataPath(rawData, function(resp){
 		return;
 	}
 	
-	conosle.log(resp.data);	// local filepath
+	console.log(resp.data);	// local filepath
 	
 	resp.clean();
 });
