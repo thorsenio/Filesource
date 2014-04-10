@@ -42,6 +42,8 @@ filesource.getDataPath("http://blabla.com/blabla.pdf", function(resp){
 	}
 	
 	conosle.log(resp.data);	// local filepath
+	
+	resp.clean();
 });
 
 // Converts raw data to readable filepath
@@ -55,5 +57,7 @@ filesource.getDataPath(rawData, function(resp){
 	}
 	
 	conosle.log(resp.data);	// local filepath
+	
+	resp.clean();
 });
 ```
