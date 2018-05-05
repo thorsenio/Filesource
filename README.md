@@ -1,8 +1,10 @@
 filesource.js
 ============
 
+Forked from https://github.com/thnew/Filesource
+
 Install:
-npm install fileosurce
+npm install filesource
 
 You can e.g. use it, if you want to offer a function, taking all possible types of data sources.
 
