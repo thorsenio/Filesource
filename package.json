@@ -10,7 +10,7 @@
 	"repository" :
 	{
 		"type" :	"git",
-		"url" :		"git@github.com:thnew/Filesource.git"
+		"url" :		"git@github.com:thorsenio/filesource.git"
 	},
-	"homepage": "https://github.com/thnew/Filesource"
+	"homepage": "https://github.com/thorsenio/filesource"
 }
